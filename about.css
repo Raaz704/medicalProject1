@@ -1,0 +1,383 @@
+/* *{
+  background-color: rgb(207, 213, 216);
+} */
+
+#cont1{
+  /* border: 1px solid black; */
+  height: 660px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+  #cont1{
+    /* border: 1px solid black; */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  #readDiv1{
+    /* border: 1px solid black; */
+    height: 300px;
+    
+  }
+
+.d-block{
+  height: 700px;
+  
+}
+#aboutDiv1{
+  /* border: 1px solid black; */
+  height: 700px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+#aboutDiv2{
+  /* border: 1px solid red; */
+  height: 650px;
+  width: 900px;
+  /* box-shadow: 10px 10px 10px 10px; */
+}
+#aboutDiv3{
+  /* border: 1px solid red; */
+  height: 650px;
+  width: 900px;
+  /* box-shadow: 10px 10px 10px 10px; */
+}
+
+
+#aboutH1{
+  font-size: 50px;
+  margin-top: 20px;
+  color: rgb(17, 151, 17);
+}
+.aboutP1{
+  font-size: 20px;
+  margin-top: 40px;
+}
+#aboutImg1{
+  height: 600px;
+  width: 900px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 10px 10px;
+}
+
+
+/*footer*/
+footer{
+  /* border: 1px solid black; */
+  /* background-color: rgb(68, 46, 17); */
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 130px;
+  background-color: purple;
+
+}
+.homeDiv6{
+  /* border: 1px solid red; */
+  height: 380px;
+  width: 450px;
+}
+.homeimg2{
+  height: 300px;
+  width: 400px;
+  margin-top: 50px;
+}
+#homeDiv7{
+  /* border: 1px solid red; */
+  height: 380px;
+  width: 450px;
+}
+#homeDiv8{
+  /* border: 1px solid red; */
+  height: 380px;
+  width: 450px;
+}
+#homeH4{
+  font-size: 47px;
+  margin-top: 20px;
+  text-align: center;
+color: rgb(26, 189, 26);
+
+}
+#homeP3{
+  font-size: 23px;
+  text-align: center;
+  text-decoration: underline rgb(22, 190, 22);
+  color: white;
+}
+.homeDiv9{
+  /* border: 1px solid greenyellow; */
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.homeP4{
+  margin-top: 15px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+#homeH5{
+  font-size: 23px;
+  margin-top: 40px;
+  color: white;
+}
+#HomeH6{
+  font-size: 39px;
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(31, 193, 31);
+  text-decoration: underline rgb(31, 193, 31) ;
+}
+#HomeDiv11{
+  /* border: 1px solid red; */
+  height: 60px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.HomeImg3{
+  height: 100px;
+  width: 110px;
+  margin-left: 20px;
+  /* box-shadow: 5px 5px 5px 5px; */
+
+}
+
+
+
+@media(width<=554px){
+  .d-block{
+    height: 220px;
+    width: 350px;
+  }
+
+  #aboutDiv1{
+    /* border: 1px solid black; */
+    height: 700px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  #aboutDiv2{
+    /* border: 1px solid red; */
+    height: 260px;
+    width: 360px;
+    position: relative;
+    bottom: 60px;
+  }
+  #aboutDiv3{
+    /* border: 1px solid red; */
+    height: 330px;
+    width: 360px;
+    position: relative;
+    bottom: 40px;
+  }
+  #aboutH1{
+    font-size: 32px;
+    margin-top: 4px;
+  color: rgb(17, 151, 17);
+  position: relative;
+  left: 30px;
+
+  }
+  .aboutP1{
+    font-size: 10px;
+    margin-top: 0px;
+    position: relative;
+    left: 30px;
+  }
+  #aboutImg1{
+    height: 230px;
+    width: 360px;
+    margin-top: 10px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 10px 10px;
+  }
+  body{
+    height: 1400px;
+  }
+
+
+
+
+
+  @media(width<=550px){
+    footer{
+    /* border: 1px solid black; */
+
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  bottom: 200px;
+
+    
+  }
+  .homeDiv6{
+    /* border: 1px solid red; */
+    height: 280px;
+    width: 250px;
+    
+   
+  }
+  #homeDiv7{
+    /* border: 1px solid red; */
+    height: 280px;
+    width: 250px;
+    
+  
+  }
+  #homeDiv8{
+    /* border: 1px solid red; */
+    height: 280px;
+    width: 250px;
+  }
+  .homeimg2{
+    height: 260px;
+    width: 250px;
+  }
+  #homeH4{
+    font-size: 27px;
+    text-align: center;
+  color: rgb(26, 189, 26);
+  }
+  #homeP3{
+    font-size: 17px;
+    text-align: center;
+  }
+  .homeDiv9{
+    /* border: 1px solid greenyellow; */
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+  }
+  .homeImg3{
+  height: 40px;
+  margin-top: 10px;
+  }
+  .homeP4{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  #homeH5{
+    font-size: 13px;
+    margin-top: 40px;
+  }
+  #HomeH6{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(31, 193, 31);
+    text-decoration: underline rgb(31, 193, 31) ;
+  }
+  .HomeImg3{
+  height: 60px;
+  width: 70px;
+  margin: 10px;
+ 
+}
+}
+  
+  
+}
+
+
+
+  /*new */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  background-color: purple;
+  
+    padding: 15px;
+    color: white;
+    
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+   
+}
+.nav-links li {
+    margin: 0 15px;
+   
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: 20px;
+    font-family: italic
+    ;
+   
+}
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.menu-toggle div {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: purple;
+
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .nav-links a {
+     
+      font-size: 14px;
+     
+     
+  }
+
+    .carousel-inner{
+      margin-top: 100px;
+    }
+}
+
